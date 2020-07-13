@@ -1,0 +1,155 @@
+@import "flex-style.css";
+
+.grid_cat {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: inherit;
+    gap: 1em;
+}
+
+.grid_brands {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+@media screen and (max-width: 900px) {
+    .non {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px){
+
+
+    .grid-menu_p {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        max-width: 700px;
+        min-width: 400px;
+    }
+
+    .grid-menu_p img {
+        display: none;
+        height: auto;
+        width: 100%;
+        max-width: 700px;
+        min-width: 470px;
+    }
+
+    .banner_p img{
+        height: auto;
+        width: 100%;
+        max-width: 700px;
+        min-width: 470px;
+    }
+
+    .grid_p {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: auto;
+        width: 100%;
+        max-width: 700px;
+        min-width: 470px;
+    }
+
+    .grid_brands_p {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        height: auto;
+        width: 100%;
+        max-width: 700px;
+        min-width: 470px;
+}
+
+
+}
+
+@media screen and (max-width: 470px){
+
+    .grid-menu_t {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        max-width: 470px;
+        min-width: 300px;
+    }
+
+    .grid-menu_t img {
+        display: none;
+
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+        width: 100%;
+        max-width: 470px;
+        min-width: 300px;
+    }
+
+    .banner_t img{
+        display: none;
+    }
+
+    .grid_t {
+        display: grid;
+        height: auto;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 470px;
+        min-width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 300px){
+
+
+    .grid-menu_mt  {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .grid-menu_mt img {
+        display: none;
+
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .banner_mt  img{
+        display: none;
+    }
+
+    .grid_mt {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        height: auto;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .grid_brands_mt {
+        display: none;
+    }
+
+
+
+
+
+}

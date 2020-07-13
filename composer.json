@@ -1,0 +1,21 @@
+{
+    "name": "aleksei/web-market",
+    "description": "online magazine electronics",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "aleksei",
+            "email": "aleksejj219952@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "nikic/fast-route": "^2.0@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aleksei\\WebShop\\": "src/"
+        }
+    }
+}

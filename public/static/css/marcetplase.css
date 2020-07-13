@@ -1,0 +1,238 @@
+@import "flex-style.css";
+
+.grid_comment {
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    grid-template-rows: 1em 1fr 1.3em;
+    border: 1px solid gray;
+}
+
+.grid_comment :nth-child(1) {
+    height: auto;
+    width: 100%;
+    padding: 0.5em;
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+
+.grid_comment :nth-child(2) {
+    margin: 0;
+    padding-left: 0;
+    padding-bottom: 0.2em;
+    padding-top: 0.2em;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.grid_comment :nth-child(2) h5 {
+    margin: 0;
+}
+
+
+.grid_comment :nth-child(3) {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.grid_comment :nth-child(3) h5 {
+    margin: 0;
+}
+
+.grid_comment :nth-child(4) {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.grid_comment :nth-child(4) p {
+    margin-top: 0;
+}
+
+.grid_comment :nth-child(5) {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.grid_comment :nth-child(5) h5 {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 700px){
+
+    .grid-menu_p {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .grid-menu_p {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        max-width: 700px;
+        min-width: 400px;
+    }
+
+    .grid-menu_p img {
+        display: none;
+        height: auto;
+        width: 100%;
+        max-width: 700px;
+        min-width: 470px;
+    }
+
+
+    .grid_also_p {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        height: auto;
+        width: 100%;
+        max-width: 700px;
+        min-width: 470px;
+    }
+    .grid-also_p :last-child {padding-left: 25%;
+    }
+
+    .container_gallery_p {
+        height: auto;
+        width: 100%;
+        max-width: 700px;
+        min-width: 470px;
+    }
+
+    .p {
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+
+    .production_p {
+        height: auto;
+        width: 100%;
+        max-width: 700px;
+        min-width: 470px;
+    }
+}
+
+@media screen and (max-width: 470px){
+
+    .grid-menu_t {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .grid-menu_t {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        max-width: 470px;
+        min-width: 300px;
+    }
+
+    .grid-menu_t img {
+        display: none;
+
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+        width: 100%;
+        max-width: 470px;
+        min-width: 300px;
+
+    }
+
+    .grid_also_t {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: auto;
+        width: 100%;
+        max-width: 470px;
+        min-width: 300px;
+    }
+
+    .grid-also_t :last-child {
+        padding-left: 50%;
+    }
+
+    .container_gallery_t {
+        height: auto;
+        width: 100%;
+        max-width: 470px;
+        min-width: 300px;
+    }
+
+    .t {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    .production_t {
+        height: auto;
+        width: 100%;
+        max-width: 470px;
+        min-width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 300px){
+
+    .grid-menu_mt {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .grid-menu_mt  {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .grid-menu_mt img {
+        display: none;
+
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+        width: 100%;
+        max-width: 300px;
+
+    }
+
+    .grid_also_mt {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: auto;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .grid-also_mt :last-child {
+        padding-left: 50%;
+    }
+
+    .container_gallery_mt {
+        height: auto;
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .production_tm {
+        max-width: 300px;
+    }
+
+    .mt {
+        margin-left: 0.1em;
+        margin-right: 0.5em;
+     }
+
+}

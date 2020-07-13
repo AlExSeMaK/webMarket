@@ -1,0 +1,16 @@
+{
+  "urls": {
+    "main": {
+      "path": "/",
+      "controller": "Aleksei\\WebShop\\Controllers\\IndexController::indexAction",
+      "method": "GET"
+    }
+  },
+  "db": {
+    "server": "127.0.0.1",
+    "dbname": "shelter",
+    "user": "aleksei",
+    "pass": "xswazq123",
+    "charset": "utf8"
+  }
+}

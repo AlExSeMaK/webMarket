@@ -1,0 +1,410 @@
+.main_content {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-areas:
+    "left-spam header_area right-spam"
+    "left-spam main_content_area right-spam"
+    "foter_area foter_area foter_area";
+    grid-template-columns: 1fr minmax(470px, 1000px) 1fr;
+    grid-template-rows: auto auto auto;
+}
+
+.menu_grid {
+    display: grid;
+}
+
+nav ul a {
+    display: block;
+}
+
+
+nav {
+    margin-top: 0;
+    background: #aead52;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+nav ul {
+    margin: 0;
+    display: block;
+}
+
+nav li {
+    list-style-type: none;
+    margin-right: 0.3em;
+    border-right: 1px solid gainsboro;
+}
+nav ul :last-child {
+    margin: 0;
+    border-right: none;
+}
+
+nav ul li p {
+    margin: 0;
+}
+
+nav ul :nth-child(3) li {
+    border-right: none;
+}
+
+nav ul ul {
+    background: #aead52;
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+nav ul li:hover > ul {
+    display:inherit;
+}
+
+nav ul ul li {
+    padding-right: 1.5em;
+    padding-top: 1.5em;
+    margin: 0;
+    float:none;
+    display:list-item;
+    position: relative;
+}
+
+
+nav ul ul :nth-child(7) {
+    padding-bottom: 1.5em;
+}
+
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.header_area {
+    grid-area: header_area;
+}
+
+.left-spam {
+    grid-area: left-spam;
+}
+
+.main_content_area {
+    grid-area: main_content_area;
+}
+
+.right-spam {
+    grid-area: righr-spam;
+}
+
+.footer_area {
+    grid-area: foter_area;
+}
+
+.grid-2x2 {
+    display: grid;
+    grid-template-areas:
+    "grid-x1y2 grid-x2y2"
+    "grid-x1y2 grid-x2y1";
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 30% 70%;
+}
+
+.grid-x1y2 {
+    grid-area: grid-x1y2;
+}
+
+.grid-x2y2 {
+    grid-area: grid-x2y2;
+}
+
+.grid-x2y1 {
+    grid-area: grid-x2y1;
+}
+
+.cards li {
+    font-size: small;
+    line-height: 1;
+}
+
+.cards img {
+    height: auto;
+    width: 100%;
+}
+.cards ul {
+     padding-left: 1em;
+     margin-top: 0;
+     margin-bottom: 0;
+}
+
+.cards p {
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
+.cards a {
+    background: chocolate;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10%;
+    color: crimson;
+    font-size: x-large;
+    margin-left: 1.5em;
+}
+
+.grid-x2y2 img {
+    height: auto;
+    width: 100%;
+}
+
+.grid-20\80 {
+    display: grid;
+    grid-template-areas: "grid-20 grid-80";
+    grid-template-rows: auto;
+    grid-template-columns: 20% 80%;
+}
+
+.grid-69_31 {
+    display: grid;
+    grid-template-areas: "grid-69 grid-31";
+    grid-template-rows: auto;
+    grid-template-columns:69% 31%;
+}
+
+.grid_gallery {
+    display: grid;
+    grid-template-areas:
+    "big_market_photo_area big_market_photo_area big_market_photo_area big_market_photo_area big_market_photo_area"
+    "min_market_photo_area_1 min_market_photo_area_2 min_market_photo_area_3 min_market_photo_area_4 min_market_photo_area_5";
+    grid-template-rows: auto;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.container_gallery {
+    margin-left: 6em;
+    margin-right: 6em;
+}
+
+.grid_gallery img {
+    height: auto;
+    width: 100%;
+    padding: 0.3em;
+}
+
+.big_market_photo_area {
+    grid-area: big_market_photo_area;
+}
+
+.min_market_photo_area_1 {
+    grid-area: min_market_photo_area_1;
+}
+
+.min_market_photo_area_1 {
+    grid-area: min_market_photo_area_2;
+}
+
+.min_market_photo_area_1 {
+    grid-area: min_market_photo_area_3;
+}
+
+.min_market_photo_area_1 {
+    grid-area: min_market_photo_area_4;
+}
+
+.min_market_photo_area_1 {
+    grid-area: min_market_photo_area_5;
+}
+
+.grid-69 {
+    grid-area: grid-69;
+}
+
+.grid-31 {
+    grid-area: grid-31;
+}
+
+.grid-20 {
+    grid-area: grid-20;
+}
+
+.grid-80 {
+    grid-area: grid-80;
+}
+
+.banner img {
+    height: 100%;
+    width: auto;
+}
+
+.catalog {
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
+.catalog img {
+    height: auto;
+    width: 100%;
+}
+
+.brend {
+    margin-top: 0.5em;
+    margin-right: 0.5em;
+}
+
+.brend img {
+    height: auto;
+    width: 100%;
+}
+
+.sel-cards img {
+    height: auto;
+    width: 100%;
+}
+
+.search-form  input{
+   width : 10em;
+}
+
+.cards_bue_too {
+    margin-top: 0.5em;
+    margin-right: 0.5em;
+}
+
+.cards_bue_too img {
+    height: auto;
+    width: 100%;
+}
+
+.big_market_photo img {
+    height: 25em;
+}
+
+textarea {
+    width: 100%;
+    height: 10em;
+    resize: none;
+}
+
+.grid-menu {
+    position: relative;
+    display: grid;
+    grid-template-areas:
+    "logo_area main_area catalog_area bascet_area register_area entrance_area";
+    grid-template-columns: 10% 20% 20% 10% 20% 20%;
+    grid-template-rows: auto;
+}
+
+.logo_area {
+    grid-area: logo_area;
+}
+
+.logo_area img {
+    height: auto;
+    width: 50%;
+}
+
+.main_area {
+    grid-area: main_area;
+}
+
+.catalog_area {
+    grid-area: catalog_area;
+}
+
+.entrance_area {
+    grid-area: entrance_area;
+}
+
+.register_area {
+    grid-area: register_area;
+}
+
+.bascet_area {
+    grid-area: bascet_area;
+}
+
+.bascet_area  img {
+    height: auto;
+    width: 50%;
+}
+
+.content-center {
+    text-align: center;
+}
+
+.modal {
+    position: absolute;
+    right: 20.9em;
+    background: #aead52;
+    padding: 0.7em;
+
+    transform: translate(0, -50%);
+    transition: all 1s;
+}
+
+.modal:target {
+    top: 7em;
+    right: 0.1em;
+}
+
+.modal:not(:target) {
+    bottom: -20em;
+    left: 0;
+    opacity: 0;
+}
+
+.close-modal {
+    position: absolute;
+    top: 0.1em;
+    right: 0.1em;
+    text-decoration: none;
+}
+
+footer .social a {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background: url("../img/sprites.png");
+}
+
+footer a.facebook {
+    background-position: 0 0;
+}
+
+footer a.twitter {
+    background-position: -100px 0;
+}
+
+footer a.youtube {
+    background-position: -200px 0;
+}
+
+footer a.instagram {
+    background-position: -300px 0;
+}
+
+footer a.google {
+    background-position: -600px 0;
+}
+
+input[type="checkbox"] {
+    width: 1px;
+}
+
+input[type="radio"] {
+    width: 1px;
+}
+
+@media screen and (max-width: 768px) {
+    nav li {
+    border: none;
+        margin-right: 0;
+    }
+
+    nav ul li:hover > ul {
+        display:none;
+    }
+}

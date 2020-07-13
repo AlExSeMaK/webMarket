@@ -1,0 +1,273 @@
+@import "flex-style.css";
+@import "style.css";
+
+.global_search :nth-child(1) {
+    padding-left: 0.5em;
+    padding-top: 0.6em;
+    padding-bottom: 0;
+    width: 100%;
+}
+
+.global_search :nth-child(2) {
+    padding-right: 1.5em;
+    margin-top: 0;
+}
+
+.global_search :nth-child(2) p {
+    margin: 0;
+}
+
+.sel-cards {
+    border: 1px solid gray;
+}
+
+.sel-cards img {
+    padding: 1em;
+    border-radius: 1em;
+
+}
+
+fieldset {
+    border:0 none;
+}
+
+.grid-31 label {
+    font-size: small;
+    font-style: inherit;
+}
+
+.grid-31 legend {
+    font-size: large;
+    font-style: unset;
+}
+
+.sorted  p  {
+    padding-top: 1.5em;
+    font-size: 10px;
+    margin-bottom: 0;
+}
+
+.sorted a {
+    text-decoration: none;
+}
+
+.grid-31 {
+    padding-top: 10em;
+}
+
+.button_search {
+    background: crimson;
+    width: 3em;
+    height: 3em;
+    border-radius: 50px;
+    position: fixed;
+    right: 2em;
+    top: 12em;
+    opacity: 0;
+}
+
+.button_search img {
+    height: 100%;
+    width: auto;
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 900px) {
+    .non {
+        display: none;
+    }
+
+    .button_search_p {
+        background: crimson;
+        width: 3em;
+        height: 3em;
+        border-radius: 50px;
+        position: fixed;
+        right: 2em;
+        top: 6em;
+        opacity: 1;
+    }
+
+    .grid-31:target {
+        position: absolute;
+        top: 15em;
+        left: 0;
+
+
+    }
+
+    .grid-31:not(:target) {
+        bottom: -20em;
+        left: 0;
+        display: none;
+    }
+
+    .close-search {
+        text-decoration: none;
+    }
+
+    .grid-31_p {
+        padding-top: 2em;
+        position: absolute;
+        left: 2em;
+        top: 2em;
+        background: gray;
+    }
+    .grid-69_p {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .global_search_p {
+        max-width: 768px;
+        min-width: 470px;
+    }
+
+
+}
+
+@media screen and (max-width: 700px) {
+
+
+    .grid-menu_p {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        max-width: 700px;
+        min-width: 400px;
+    }
+
+    .grid-menu_p img {
+        display: none;
+        height: auto;
+        width: 100%;
+        max-width: 700px;
+        min-width: 470px;
+    }
+
+    .sorted_p {
+        display: flex;
+        flex-direction: column;
+        max-width: 768px;
+        min-width: 470px;
+    }
+
+    .grid-69_pt {
+        max-width: 768px;
+        min-width: 470px;
+    }
+
+}
+
+@media screen and (max-width: 470px) {
+
+    .grid-menu_t {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        max-width: 470px;
+        min-width: 300px;
+    }
+
+    .grid-menu_t img {
+        display: none;
+
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+        width: 100%;
+        max-width: 470px;
+        min-width: 300px;
+    }
+
+
+    .global_search_t {
+        max-width: 470px;
+        min-width: 300px;
+    }
+
+    .sorted_t {
+        max-width: 470px;
+        min-width: 300px;
+    }
+
+    .grid-69_t {
+        display: flex;
+        flex-direction: column;
+        max-width: 470px;
+        min-width: 300px;
+    }
+
+    nav {
+        max-width: 470px;
+        min-width: 300px;
+    }
+
+    main {
+        max-width: 470px;
+        min-width: 300px;
+    }
+
+    header {
+        max-width: 470px;
+        min-width: 300px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+
+    nav {
+        max-width: 300px;
+    }
+
+    main {
+        max-width: 300px;
+    }
+
+    header {
+        max-width: 300px;
+    }
+
+
+    .grid-menu_mt {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .grid-menu_mt img {
+        display: none;
+
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .global_search_mt {
+        max-width: 320px;
+    }
+
+    .sorted_mt {
+        display: flex;
+        flex-direction: column;
+        max-width: 320px;
+    }
+
+    .grid-69_mt {
+        max-width: 320px;
+    }
+}
