@@ -1,62 +1,8 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <link rel="stylesheet" href="../css/catalog.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
-    <title>Catalog</title>
-</head>
-<body class="main_content">
-<header class="header_area">
-    <nav>
-        <ul class="grid-menu grid-menu_t grid-menu_p grid-menu_mt">
-            <li class="logo_area content-center">
-                <a href="#"><img src="https://picsum.photos/700"></a>
-            </li>
-            <li class="main_area content-center">
-                <div><a href="main.php"><p>Главная</p></a></div>
-            </li>
-            <li class="catalog_area content-center">
-                <div><a href="#"><p>Каталог</p></a></div>
-                <ul >
-                    <li class="content-center">
-                        <div><a href="#">Комьпьютеры</a></div>
-                    </li>
-                    <li class="content-center">
-                        <div><a href="#">Ноутбуки</a></div>
-                    </li>
-                    <li class="content-center">
-                        <div><a href="#">Смартфоны</a></div>
-                    </li>
-                    <li class="content-center">
-                        <div><a href="#">Планшеты</a></div>
-                    </li>
-                    <li class="content-center">
-                        <div><a href="#">Оргтехника</a></div>
-                    </li>
-                    <li class="content-center">
-                        <div><a href="#">Аксесуары</a></div>
-                    </li>
-                </ul>
-            </li>
-            <li class="bascet_area content-center">
-                <div><a href="#"><img src="https://picsum.photos/700"></a></div>
-            </li>
-            <li class="register_area content-center">
-                <div><a href="#"><p>Регистрация</p></a> </div>
-            </li>
-            <li class="entrance_area content-center">
-                <div><a href="#auth"><p>Вход</p></a></div>
-            </li>
-        </ul>
-    </nav>
-</header>
 <main class="main_content_area">
     <div class="flex-row">
         <div class="flex-column flex-4 non">
             <div class="flex-column">
-                <div class="flex-2"><a href="#"><h3>Компьютеры</h3></a></div>
+                <div class="flex-2"><a href="/computers"><h3>Компьютеры</h3></a></div>
                 <div class="flex-4"><a><ul>
                     <li><a href="#">Настольные</a></li>
                     <li><a href="#">Моноблоки</a></li>
@@ -65,7 +11,7 @@
                 </ul></a></div>
             </div>
             <div class="flex-column flex-wrap">
-                <div class="flex-2"><a href="#"><h3>Ноутбуки</h3></a></div>
+                <div class="flex-2"><a href="/laptops"><h3>Ноутбуки</h3></a></div>
                 <div class="flex-10"><a><ul>
                     <li><a href="#">Трансформеры</a></li>
                     <li><a href="#">Игровый</a></li>
@@ -74,7 +20,7 @@
                 </ul></a></div>
             </div>
             <div class="flex-column flex-wrap">
-                <div class="flex-2"><a href="#"><h3>Смартфоны и телефоны</h3></a></div>
+                <div class="flex-2"><a href="/smartphones"><h3>Смартфоны и телефоны</h3></a></div>
                 <div class="flex-10"><a><ul>
                     <li><a href="#">Смартфоны</a></li>
                     <li><a href="#">Кнопочные телефоны</a></li>
@@ -83,7 +29,7 @@
                 </ul></a></div>
             </div>
             <div class="flex-column flex-wrap">
-                <div class="flex-2"><a href="#"><h3>Планшеты</h3></a></div>
+                <div class="flex-2"><a href="/pads"><h3>Планшеты</h3></a></div>
                 <div class="flex-10"><a><ul>
                     <li><a href="#">Apple</a></li>
                     <li><a href="#">Android</a></li>
@@ -91,7 +37,7 @@
                 </ul></a></div>
             </div>
             <div class="flex-column flex-wrap">
-                <div class="flex-2"><a href="#"><h3>Оргтехника</h3></a></div>
+                <div class="flex-2"><a href="/office_equipment"><h3>Оргтехника</h3></a></div>
                 <div class="flex-10"><a><ul>
                     <li><a href="#">Принторы</a></li>
                     <li><a href="#">Сканеры</a></li>
@@ -100,7 +46,7 @@
                 </ul></a></div>
             </div>
             <div class="flex-column flex-wrap">
-                <div class="flex-2"><a href="#"><h3>Аксесуары</h3></a></div>
+                <div class="flex-2"><a href="/acsessyars"><h3>Аксесуары</h3></a></div>
                 <div class="flex-10"><a><ul>
                     <li><a href="#">Флеш накопители</a></li>
                     <li><a href="#">Браслеты</a></li>
@@ -119,7 +65,7 @@
                         <div class="flex-column flex-wrap flex-4">
                             <div class="flex-column content-center">
                                 <div class="flex-10"><img src="../img/catalog/computers.jpeg"></div>
-                                <div class="flex-2"><a href="#">Компьютеры</a></div>
+                                <div class="flex-2"><a href="/computers">Компьютеры</a></div>
                             </div>
                         </div>
                     </div>
@@ -127,7 +73,7 @@
                         <div class="flex-column flex-wrap flex-4">
                             <div class="flex-column content-center">
                                 <div class="flex-10"><img src="../img/catalog/laptops.jpeg"></div>
-                                <div class="flex-2"><a href="#">Ноутбуки</a></div>
+                                <div class="flex-2"><a href="/laptops">Ноутбуки</a></div>
                             </div>
                         </div>
                     </div>
@@ -135,7 +81,7 @@
                         <div class="flex-column flex-wrap flex-4">
                             <div class="flex-column content-center">
                                 <div class="flex-10"><img src="../img/catalog/pads.jpeg"></div>
-                                <div class="flex-2"><a href="#">Планшеты</a></div>
+                                <div class="flex-2"><a href="/pads">Планшеты</a></div>
                             </div>
                         </div>
                     </div>
@@ -143,7 +89,7 @@
                         <div class="flex-column flex-wrap flex-4">
                             <div class="flex-column content-center">
                                 <div class="flex-10"><img src="../img/catalog/smartphones.jpeg"></div>
-                                <div class="flex-2"><a href="#">Телефоны</a></div>
+                                <div class="flex-2"><a href="/smartphones">Телефоны</a></div>
                             </div>
                         </div>
                     </div>
@@ -151,7 +97,7 @@
                         <div class="flex-column flex-wrap flex-4">
                             <div class="flex-column content-center">
                                 <div class="flex-10"><img src="../img/catalog/office.jpeg"></div>
-                                <div class="flex-2"><a href="#">Оргтехника</a></div>
+                                <div class="flex-2"><a href="/office_equipment">Оргтехника</a></div>
                             </div>
                         </div>
                     </div>
@@ -159,7 +105,7 @@
                         <div class="flex-column flex-wrap flex-4">
                             <div class="flex-column content-center">
                                 <div class="flex-10"><img src="../img/catalog/acsess.jpeg"></div>
-                                <div class="flex-2"><a href="#">Аксесуары</a></div>
+                                <div class="flex-2"><a href="/acsessyars">Аксесуары</a></div>
                             </div>
                         </div>
                     </div>
@@ -189,51 +135,3 @@
         </div>
     </div>
 </main>
-<footer class="footer_area flex-row space-around content-center">
-    <div class="flex-column">
-        <div class="flex-column">
-            <div class="flex-6"><p>+7 (812) 658-94-76</p></div>
-        </div>
-        <div class="flex-column">
-            <div class="flex-6"><p>+7 (911) 758-77-32</p></div>
-        </div>
-        <div class="flex-column">
-            <div class="flex-6"><p>+7 (812) 658-94-76</p></div>
-        </div>
-        <div class="flex-column">
-            <div class="flex-6"><p>vintmarket@mail.ru</p></div>
-        </div>
-        <div class="flex-column">
-            <div class="flex-6"><p>vintopttorg@mail.ru</p></div>
-        </div>
-        <div class="flex-column">
-            <div class="flex-6"><p>СПБ проспект Демьянова д.6</p></div>
-        </div>
-    </div>
-    <section>
-        <h5>Соц. сети</h5>
-        <div class="social">
-            <a href="#" class="facebook"></a>
-            <a href="#" class="twitter"></a>
-            <a href="#" class="youtube"></a>
-            <a href="#" class="instagram"></a>
-            <a href="#" class="google"></a>
-        </div>
-    </section>
-</footer>
-<section class="modal" id="auth">
-    <form class="flex-column" name="auth" action="#" method="post">
-        <label>
-            <input type="email" name="email" placeholder="Введите e-mail">
-        </label>
-        <label>
-            <input type="password" name="pwd" placeholder="Введите пароль">
-        </label>
-        <label>
-            <input type="submit" value="Войти">
-        </label>
-    </form>
-    <a class="close-modal" href="#">X</a>
-</section>
-</body>
-</html>

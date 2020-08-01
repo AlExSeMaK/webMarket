@@ -3,6 +3,7 @@
 <head>
     <!--Общие css-->
     <link href="/static/css/main.css" rel="stylesheet">
+    <link href="/static/css/<? echo $data_css; ?>" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <!--Общие js библиотеки подключаются здесь-->
@@ -14,31 +15,31 @@
     <nav>
         <ul class="grid-menu grid-menu_p grid-menu_t grid-menu_mt">
             <li class="logo_area content-center">
-                <a href="#"><img src="https://picsum.photos/700"></a>
+                <a href="/"><img src="https://picsum.photos/700"></a>
             </li>
             <li class="main_area content-center">
-                <div><a href="main.php"><p>Главная</p></a></div>
+                <div><a href="/"><p>Главная</p></a></div>
             </li>
             <li class="catalog_area content-center">
-                <div><a href="Catalog.html">Каталог</a></div>
+                <div><a href="/catalog">Каталог</a></div>
                 <ul >
                     <li class="content-center">
-                        <div><a href="computer.html">Комьпьютеры</a></div>
+                        <div><a href="/computers">Комьпьютеры</a></div>
                     </li>
                     <li class="content-center">
-                        <div><a href="laptops.html">Ноутбуки</a></div>
+                        <div><a href="/laptops">Ноутбуки</a></div>
                     </li>
                     <li class="content-center">
-                        <div><a href="smartphones.html">Смартфоны</a></div>
+                        <div><a href="/smartphones">Смартфоны</a></div>
                     </li>
                     <li class="content-center">
-                        <div><a href="pads.html">Планшеты</a></div>
+                        <div><a href="/pads">Планшеты</a></div>
                     </li>
                     <li class="content-center">
-                        <div><a href="office_equipment.html">Оргтехника</a></div>
+                        <div><a href="/office_equipment">Оргтехника</a></div>
                     </li>
                     <li class="content-center">
-                        <div><a href="acsessyars.html">Аксесуары</a></div>
+                        <div><a href="/acsessyars">Аксесуары</a></div>
                     </li>
                 </ul>
             </li>
@@ -46,7 +47,7 @@
                 <div><a href="#"><img src="https://picsum.photos/700"></a></div>
             </li>
             <li class="register_area content-center">
-                <div><a href="form_reg.html"><p>Регистрация</p></a> </div>
+                <div><a href="/regUser"><p>Регистрация</p></a> </div>
             </li>
             <li class="entrance_area content-center">
                 <div><a href="#auth"><p>Вход</p></a></div>

@@ -1,4 +1,3 @@
-
 <main class="main_content_area">
     <form method="post" action="#" class="global_search global_search_p global_search_t global_search_mt">
         <div class="flex-row">

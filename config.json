@@ -4,13 +4,58 @@
       "path": "/",
       "controller": "Aleksei\\WebShop\\Controllers\\IndexController::indexAction",
       "method": "GET"
+    },
+    "catalog": {
+      "path": "/catalog",
+      "controller": "Aleksei\\WebShop\\Controllers\\IndexController::catalogAction",
+      "method": "GET"
+    },
+    "sow reg form": {
+      "path": "/regUser",
+      "controller": "Aleksei\\WebShop\\Controllers\\UserController::showRegAction",
+      "method": "GET"
+    },
+    "regUser": {
+      "path": "/regUser",
+      "controller": "Aleksei\\WebShop\\Controllers\\UserController::regUserAction",
+      "method": "POST"
+    },
+    "acsessyars": {
+      "path": "/acsessyars",
+      "controller": "Aleksei\\WebShop\\Controllers\\IndexController::acsessyarsAction",
+      "method": "GET"
+    },
+    "computers": {
+      "path": "/computers",
+      "controller": "Aleksei\\WebShop\\Controllers\\IndexController::computersAction",
+      "method": "GET"
+    },
+    "laptops": {
+      "path": "/laptops",
+      "controller": "Aleksei\\WebShop\\Controllers\\IndexController::laptopsAction",
+      "method": "GET"
+    },
+    "office_equipment": {
+      "path": "/office_equipment",
+      "controller": "Aleksei\\WebShop\\Controllers\\IndexController::office_equipmentAction",
+      "method": "GET"
+    },
+    "pads": {
+      "path": "/pads",
+      "controller": "Aleksei\\WebShop\\Controllers\\IndexController::padsAction",
+      "method": "GET"
+    },
+    "smartphones": {
+      "path": "/smartphones",
+      "controller": "Aleksei\\WebShop\\Controllers\\IndexController::smartphonesAction",
+      "method": "GET"
     }
   },
   "db": {
     "server": "127.0.0.1",
-    "dbname": "shelter",
-    "user": "aleksei",
-    "pass": "xswazq123",
+    "dbname": "dbd",
+    "user": "root",
+    "pass": "root",
     "charset": "utf8"
   }
 }

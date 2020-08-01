@@ -1,59 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="../css/pads.css">
-    <meta charset="UTF-8">
-    <title>Pads</title>
-</head>
-<body class="main_content">
-<header class="header_area">
-    <nav>
-        <ul class="grid-menu grid-menu_p grid-menu_t grid-menu_mt">
-            <li class="logo_area content-center">
-                <a href="#"><img src="https://picsum.photos/700"></a>
-            </li>
-            <li class="main_area content-center">
-                <div><a href="main.php"><p>Главная</p></a></div>
-            </li>
-            <li class="catalog_area content-center">
-                <div><a href="#"><p>Каталог</p></a></div>
-                <ul >
-                    <li class="content-center">
-                        <div><a href="#">Комьпьютеры</a></div>
-                    </li>
-                    <li class="content-center">
-                        <div><a href="#">Ноутбуки</a></div>
-                    </li>
-                    <li class="content-center">
-                        <div><a href="#">Смартфоны</a></div>
-                    </li>
-                    <li class="content-center">
-                        <div><a href="#">Планшеты</a></div>
-                    </li>
-                    <li class="content-center">
-                        <div><a href="#">Оргтехника</a></div>
-                    </li>
-                    <li class="content-center">
-                        <div><a href="#">Аксесуары</a></div>
-                    </li>
-                </ul>
-            </li>
-            <li class="bascet_area content-center">
-                <div><a href="#"><img src="https://picsum.photos/700"></a></div>
-            </li>
-            <li class="register_area content-center">
-                <div><a href="#"><p>Регистрация</p></a> </div>
-            </li>
-            <li class="entrance_area content-center">
-                <div><a href="#auth"><p>Вход</p></a></div>
-            </li>
-        </ul>
-    </nav>
-</header>
 <main class="main_content_area">
     <div class="grid-69_31 grid-69_p">
         <div class="grid-69 grid-69_pt grid-69_t grid-69_mt">
-            <h2>Планшеты</h2>
+            <h2>Ноутбуки</h2>
             <div class="flex-row global_search global_search_p global_search_t global_search_mt">
                 <form action="#" method="post">
                     <fieldset>
@@ -62,9 +10,9 @@
                         </label>
                     </fieldset>
                 </form>
-                <div><a href="№"><p>Поиск</p></a></div>
+                <div><a href="#"><p>Поиск</p></a></div>
             </div>
-            <div class="flex-row sorted sorted_p sorted_t sorted_mt">
+            <div class="flex-row flex-row sorted sorted_p sorted_t sorted_mt">
                 <h5>Сортировать:</h5>
                 <a href="#"><p>по популярности</p></a>
                 <a href="#"><p>по цене</p></a>
@@ -372,7 +320,7 @@
         </div>
         <div class="grid-31 grid-31_p" id="search">
             <div>
-                <form name="search" action="#" method="post" class="search-form">
+                <form name="search" action="#" method="post" class="search-form sear">
                     <div><h4>Расширеный поиск</h4></div>
                     <div><a class="close-search" href="#">скрыть</a></div>
                     <fieldset>
@@ -397,51 +345,51 @@
                     <fieldset>
                         <legend>Производитель</legend>
                         <label class="flex-row">
-                            <input type="checkbox" name="maker[]" value="maker_pad_arian">
-                            Arian
+                            <input type="checkbox" name="maker[]" value="maker_laptop_acer">
+                            Acer
                         </label>
                         <label class="flex-row">
-                            <input  type="checkbox" name="make[]" value="maker_pad_appel">
+                            <input  type="checkbox" name="make[]" value="maker_laptop_appel">
                             Appel
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="maker[]" value="maker_asus">
+                            <input type="checkbox" name="maker[]" value="maker_laptop_asus">
                             ASUS
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="maker[]" value="maker_pad_bq">
+                            <input type="checkbox" name="maker[]" value="maker_laptop_bq">
                             BQ
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="maker[]" value="maker_pad_huawei">
+                            <input type="checkbox" name="maker[]" value="maker_laptop_huawei">
                             HUAWEI
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="maker[]" value="maker_pad_irbis">
+                            <input type="checkbox" name="maker[]" value="maker_laptop_irbis">
                             irbis
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="maker[]" value="maker_pad_hp">
+                            <input type="checkbox" name="maker[]" value="maker_laptop_hp">
                             HP
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="maker[]" value="maker_pad_samsung">
-                            Samsung
+                            <input type="checkbox" name="maker[]" value="maker_laptop_microsoft">
+                            Microsoft
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="maker[]" value="maker_iru">
+                            <input type="checkbox" name="maker[]" value="maker_laptop_iru">
                             iRu
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="maker[]" value="maker_pad_prestigio">
+                            <input type="checkbox" name="maker[]" value="maker_laptop_prestigio">
                             Prestigio
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="maker[]" value="maker_lenovo">
+                            <input type="checkbox" name="maker[]" value="maker_laptop_lenovo">
                             Lenovo
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="maker[]" value="maker_pad_Xiomi">
+                            <input type="checkbox" name="maker[]" value="maker_laptop_Xiomi">
                             Xiomi
                         </label>
                     </fieldset>
@@ -452,98 +400,149 @@
                         </label>
                     </fieldset>
                     <fieldset>
-                        <legend>Линейка</legend>
+                        <legend>Тип ноутбука</legend>
                         <label class="flex-row">
-                            <input type="checkbox" name="line_pad[]" value="huawei_mediapad">
-                            HUAWEI MediaPad
+                            <input type="checkbox" name="type_laptop[]" value="game_laptop">
+                            Игровой ноутбук
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="line_pad[]" value="digma_plane">
-                            DIGMA Plane
+                            <input type="checkbox" name="type_laptop[]" value="laptop">
+                            laptop
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="line_pad[]" value="apple_ipad_mini">
-                            Apple_iPad mini
+                            <input type="checkbox" name="type_laptop[]" value="laptop_pad">
+                            Ноутбук планшет
+                        </label>
+                        <label class="flex-row">
+                            <input type="checkbox" name="type_laptop[]" value="laptop_transformer">
+                            Ноутбук трансформер
                         </label>
                     </fieldset>
                     <fieldset>
-                        <legend>Платформа</legend>
+                        <legend>Операционная система</legend>
                         <label class="flex-row">
-                            <input type="checkbox" name="platform_pad[]" value="android">
-                            Android
+                            <input type="checkbox" name="Operation_System[]" value="Win_10_Home">
+                            Windows 10 Home
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="platform_pad[]" value="ios">
-                            IOS
+                            <input type="checkbox" name="Operation_System[]" value="none_OS">
+                            OS не указана
+                        </label>
+                        <label class="flex-row">
+                            <input type="checkbox" name="Operation_System[]" value="Win_10_Pro">
+                            Windows 10 Pro
+                        </label>
+                        <label class="flex-row">
+                            <input type="checkbox" name="Operation_System[]" value="DOS">
+                            DOS
+                        </label>
+                        <label class="flex-row">
+                            <input type="checkbox" name="Operation_System[]" value="Linux">
+                            Linux
                         </label>
                     </fieldset>
                     <fieldset>
                         <legend>Размер экрана</legend>
                         <label class="flex-row">
-                            <input checked type="checkbox" name="size_screen[]" value="7-7.9_size_screen">
-                            7"-7.9"
+                            <input checked type="checkbox" name="size_screen_laptop[]" value="11_size_screen_laptop">
+                            до 11"
                         </label>
                         <label class="flex-row">
-                            <input checked type="checkbox" name="size_screen[]" value="9-8.9_size_screen">
-                            8"-8.9"
+                            <input checked type="checkbox" name="size_screen_laptop[]" value="11-11.9_size_screen_laptop">
+                            11"-11,9"
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="size_screen[]" value="9-9.7_size_screen">
-                            9"-9.7"
+                            <input checked type="checkbox" name="size_screen_laptop[]" value="12-12.9_size_screen_laptop">
+                            12"-12.9"
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="size_screen[]" value="10.1-11_size_screen">
-                            10.1"-11"
+                            <input checked type="checkbox" name="size_screen_laptop[]" value="13-13.9_size_screen_laptop">
+                            13"-13.9"
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="size_screen[]" value="11.6_size_screen">
-                            11.6" и выше
+                            <input checked type="checkbox" name="size_screen_laptop[]" value="14-14.9_size_screen_laptop">
+                            14"-14.9"
                         </label>
                         <label class="flex-row">
-                            <input checked type="checkbox" name="size_screen[]" value="7_size_screen">
-                            Менее 7"
+                            <input checked type="checkbox" name="size_screen_laptop[]" value="15-15.9_size_screen_laptop">
+                            15"-15.9"
+                        </label>
+                        <label class="flex-row">
+                            <input checked type="checkbox" name="size_screen_laptop[]" value="16-16.9_size_screen_laptop">
+                            16"-16.9"
+                        </label>
+                        <label class="flex-row">
+                            <input checked type="checkbox" name="size_screen_laptop[]" value="16-16.9_size_screen_laptop">
+                            16"-16.9"
+                        </label>
+                        <label class="flex-row">
+                            <input checked type="checkbox" name="size_screen_laptop[]" value="17_size_screen_laptop">
+                            17"-и более
                         </label>
                     </fieldset>
                     <fieldset>
                         <legend>Разрешение экрана</legend>
                         <label class="flex-row">
-                            <input type="checkbox" name="resolution_screen[]" value="resolution_screen_1280x800">
-                            1280x800
+                            <input type="checkbox" name="resolution_screen_laptop[]" value="resolution_screen_laptop1920x1080">
+                            1920х1080
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="resolution_screen[]" value="resolution_screen_1024x600">
-                            1024x600
+                            <input type="checkbox" name="resolution_screen_laptop[]" value="resolution_screen_laptop1366x768">
+                            1366x7688
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="resolution_screen[]" value="resolution_screen_1920x1200">
-                            1920x1200
+                            <input type="checkbox" name="resolution_screen_laptop[]" value="resolution_screen_laptop1600x900">
+                            1600x900
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="resolution_screen[]" value="resolution_screen_2048x1536">
-                            2048x1536
+                            <input type="checkbox" name="resolution_screen_laptop[]" value="resolution_screen_laptop2560x1600">
+                            2560x1600
+                        </label>
+                        <label class="flex-row">
+                            <input type="checkbox" name="resolution_screen_laptop[]" value="resolution_screen_laptop1024x768">
+                            1024x768
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Линейка процессоров</legend>
+                        <label class="flex-row">
+                            <input type="checkbox" name="line_processor[]" value="intel_core_i5">
+                            Intel Core i5
+                        </label>
+                        <label class="flex-row">
+                            <input type="checkbox" name="line_processor[]" value="intel_core_i7">
+                            Intel Core i7
+                        </label>
+                        <label class="flex-row">
+                            <input type="checkbox" name="line_processor[]" value="intel_core_i3">
+                            Intel Core i3
+                        </label>
+                        <label class="flex-row">
+                            <input type="checkbox" name="line_processor[]" value="amd_ryzen_5">
+                            AMD Ryzen 5
+                        </label>
+                        <label class="flex-row">
+                            <input type="checkbox" name="line_processor[]" value="intel_core_i9">
+                            Intel Core i9
                         </label>
                     </fieldset>
                     <fieldset>
                         <legend>Количество ядер процессора</legend>
                         <label class="flex-row">
-                            <input type="checkbox" name="stace_cores_in_processor[]" value="4_cores_in_processor">
+                            <input type="checkbox" name="stace_cores_in_processor_laptop[]" value="4_cores_in_processor_laptop">
                             4
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="stace_cores_in_processor[]" value="8_cores_in_processor">
+                            <input type="checkbox" name="stace_cores_in_processor_laptop[]" value="8_cores_in_processor_laptop">
                             8
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="stace_cores_in_processor[]" value="6_cores_in_processor">
+                            <input type="checkbox" name="stace_cores_in_processor_laptop[]" value="6_cores_in_processor_laptop">
                             6
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="stace_cores_in_processor[]" value="2_cores_in_processor">
+                            <input type="checkbox" name="stace_cores_in_processor_laptop[]" value="2_cores_in_processor_laptop">
                             2
-                        </label>
-                        <label class="flex-row">
-                            <input type="checkbox" name="stace_cores_in_processor[]" value="1_cores_in_processor">
-                            1
                         </label>
                     </fieldset>
                     <fieldset>
@@ -570,76 +569,129 @@
                         </label>
                     </fieldset>
                     <fieldset>
-                        <legend>Размер встроеной памяти</legend>
+                        <legend>Оперативная память</legend>
                         <label class="flex-row">
-                            <input type="checkbox" name="integer_member_pad[]" value="16g_integer_member_pad">
+                            <input type="checkbox" name="operation_member[]" value="8g_operation_member">
+                            8 ГБ
+                        </label>
+                        <label class="flex-row">
+                            <input type="checkbox" name="operation_member[]" value="16g_operation_member">
                             16 ГБ
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="integer_member_pad[]" value="32g_integer_member_pad">
+                            <input type="checkbox" name="operation_member[]" value="32g_operation_member">
                             32 ГБ
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="integer_member_pad[]" value="8g_integer_member_pad">
-                            до 8 ГБ
+                            <input type="checkbox" name="operation_member[]" value="4g_operation_member">
+                            4 ГБ
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="integer_member_pad[]" value="64g_integer_member_pad">
+                            <input type="checkbox" name="operation_member[]" value="64g_operation_member">
                             64 ГБ
                         </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Тип видеопамяти</legend>
                         <label class="flex-row">
-                            <input type="checkbox" name="integer_member_pad[]" value="128g_integer_member_pad">
-                            128 ГБ
+                            <input type="checkbox" name="video_member[]" value="integrated_video_member">
+                            Встроеная
+                        </label>
+                        <label class="flex-row">
+                            <input type="checkbox" name="video_member[]" value="discrete_video_member">
+                            Дискретная
                         </label>
                     </fieldset>
                     <fieldset>
+                        <legend>Обьём видеопамяти</legend>
                         <label class="flex-row">
-                            <input type="checkbox" name="socket_member_card_pad" value="socket_member_card_pad">
-                            Слот для карты памяти
+                            <input type="checkbox" name="volume_video_member[]" value="8_gig_video_member">
+                            8 ГБ
+                        </label>
+                        <label class="flex-row">
+                            <input type="checkbox" name="volume_video_member[]" value="2_gig_video_member">
+                            2 ГБ
+                        </label>
+                        <label class="flex-row">
+                            <input type="checkbox" name="volume_video_member[]" value="6_gig_video_member">
+                            6 ГБ
+                        </label>
+                        <label class="flex-row">
+                            <input type="checkbox" name="volume_video_member[]" value="4_gig_video_member">
+                            4 ГБ
+                        </label>
+                        <label class="flex-row">
+                            <input type="checkbox" name="volume_video_member[]" value="11_gig_video_member">
+                            11 ГБ
                         </label>
                     </fieldset>
                     <fieldset>
-                        <legend>4G LTE</legend>
+                        <legend>Конфигурации накопителя</legend>
                         <label class="flex-row">
-                            <input type="radio" name="4g_in_pad" value="4g_in_pad_yes">
-                            Да
+                            <input type="checkbox" name="configuration_drive[]" value="eMMC">
+                            eMMC
                         </label>
                         <label class="flex-row">
-                            <input type="radio" name="4g_in_pad" value="4g_in_pad_no">
-                            Нет
+                            <input type="checkbox" name="configuration_drive[]" value="HDD">
+                            HDD
                         </label>
                         <label class="flex-row">
-                            <input checked type="radio" name="4g_in_pad" value="4g_in_pad_all">
-                            Неважно
+                            <input type="checkbox" name="configuration_drive[]" value="HDD+SDD">
+                            HDD + SDD
+                        </label>
+                        <label class="flex-row">
+                            <input type="checkbox" name="configuration_drive[]" value="SDD">
+                            SDD
+                        </label>
+                        <label class="flex-row">
+                            <input type="checkbox" name="configuration_drive[]" value="none_drive">
+                            Без накопителя
                         </label>
                     </fieldset>
                     <fieldset>
+                        Общий обьём накопителей HDD
                         <label class="flex-row">
-                            <input type="checkbox" name="gps_in_pad" value="gps_in_pad">
-                            GPS
+                            <input type="checkbox" name="volume_HDD[]" value="1_TB_HDD">
+                            1 TB
+                        </label>
+                        <label class="flex-row">
+                            <input type="checkbox" name="volume_HDD[]" value="2_TB_HDD">
+                            2 TB
+                        </label>
+                        <label class="flex-row">
+                            <input type="checkbox" name="volume_HDD[]" value="3_TB_HDD">
+                            3 TB
+                        </label>
+                        <label class="flex-row">
+                            <input type="checkbox" name="volume_HDD[]" value="4_TB_HDD">
+                            4 TB
+                        </label>
+                        <label class="flex-row">
+                            <input type="checkbox" name="volume_HDD[]" value="500_Gig_HDD">
+                            500 ГБ
                         </label>
                     </fieldset>
                     <fieldset>
-                        <legend>Разрешение основной камеры</legend>
+                        <legend>Общий объём накопителей SSD</legend>
                         <label class="flex-row">
-                            <input type="checkbox" name="resolution_camera_pad" value="2mpix_resolution_camera_pad">
-                            2 Мпикс
+                            <input type="checkbox" name="volume_SSD[]" value="120_Gig">
+                            120 ГБ
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="resolution_camera_pad" value="8mpix_resolution_camera_pad">
-                            8 Мпикс
+                            <input type="checkbox" name="volume_SSD[]" value="480_Gig">
+                            480 ГБ
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="resolution_camera_pad" value="5mpix_resolution_camera_pad">
-                            5 Мпикс
+                            <input type="checkbox" name="volume_SSD[]" value="240_Gig">
+                            240 ГБ
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="resolution_camera_pad" value="12mpix_resolution_camera_pad">
-                            12 Мпикс
+                            <input type="checkbox" name="volume_SSD[]" value="960_Gig">
+                            960 ГБ
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="resolution_camera_pad" value="13mpix_resolution_camera_pad">
-                            13 Мпикс
+                            <input type="checkbox" name="volume_SSD[]" value="256_Gig">
+                            256 ГБ
                         </label>
                     </fieldset>
                     <fieldset>
@@ -722,54 +774,3 @@
         </div>
     </div>
 </main>
-<div class="button_search button_search_p">
-    <a href="#search"><img src="../img/photo%20button/index.png"></a>
-</div>
-<footer class="footer_area flex-row space-around content-center">
-    <div class="flex-column">
-        <div class="flex-column">
-            <div class="flex-6"><p>+7 (812) 658-94-76</p></div>
-        </div>
-        <div class="flex-column">
-            <div class="flex-6"><p>+7 (911) 758-77-32</p></div>
-        </div>
-        <div class="flex-column">
-            <div class="flex-6"><p>+7 (812) 658-94-76</p></div>
-        </div>
-        <div class="flex-column">
-            <div class="flex-6"><p>vintmarket@mail.ru</p></div>
-        </div>
-        <div class="flex-column">
-            <div class="flex-6"><p>vintopttorg@mail.ru</p></div>
-        </div>
-        <div class="flex-column">
-            <div class="flex-6"><p>СПБ проспект Демьянова д.6</p></div>
-        </div>
-    </div>
-    <section>
-        <h5>Соц. сети</h5>
-        <div class="social">
-            <a href="#" class="facebook"></a>
-            <a href="#" class="twitter"></a>
-            <a href="#" class="youtube"></a>
-            <a href="#" class="instagram"></a>
-            <a href="#" class="google"></a>
-        </div>
-    </section>
-</footer>
-<section class="modal" id="auth">
-    <form class="flex-column" name="auth" action="#" method="post">
-        <label>
-            <input type="email" name="email" placeholder="Введите e-mail">
-        </label>
-        <label>
-            <input type="password" name="pwd" placeholder="Введите пароль">
-        </label>
-        <label>
-            <input type="submit" value="Войти">
-        </label>
-    </form>
-    <a class="close-modal" href="#">X</a>
-</section>
-</body>
-</html>

@@ -15,9 +15,12 @@
 }
 
 nav ul a {
-    display: block;
+    display: contents;
 }
 
+nav ul div {
+    display: block;
+}
 
 nav {
     margin-top: 0;
@@ -28,7 +31,6 @@ nav {
 
 nav ul {
     margin: 0;
-    display: block;
 }
 
 nav li {
