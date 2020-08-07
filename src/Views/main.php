@@ -5,106 +5,38 @@
             <div><p>Поиск</p></div>
         </div>
     </form>
+    <p><? echo $product_data ?></p>
     <div>
         <div><h1>Акции</h1></div>
             <div class="grid_cards_position grid_cards_position_p grid_cards_position_t grid_cards_position_mt">
+                <? foreach ($res_data as $res): ?>
                 <div class="grid_card">
-                    <div><a href="#"><img src="https://picsum.photos/700"></a></div>
-                    <div class="content-center"><a href="#"><h5>Название тавара</h5></a></div>
-                    <div class="content-center"><a><h6>цена товара</h6></a></div>
+                    <div><a href="#"><img src="/static/img/pic/<? echo $res['product_main_photo']; ?>"></a></div>
+                    <div class="content-center"><a href="#"><h5><? echo $res['product_name']; ?></h5></a></div>
+                    <div class="content-center"><a><h6><? echo $res['price']; ?></h6></a></div>
                 </div>
-                <div class="grid_card">
-                    <div><a href="#"><img src="https://picsum.photos/700"></a></div>
-                    <div class="content-center"><a href="#"><h5>Название тавара</h5></a></div>
-                    <div class="content-center"><a><h6>цена товара</h6></a></div>
-                </div>
-                <div class="grid_card">
-                    <div><a href="#"><img src="https://picsum.photos/700"></a></div>
-                    <div class="content-center"><a href="#"><h5>Название тавара</h5></a></div>
-                    <div class="content-center"><a><h6>цена товара</h6></a></div>
-                </div>
-                <div class="grid_card">
-                    <div><a href="#"><img src="https://picsum.photos/700"></a></div>
-                    <div class="content-center"><a href="#"><h5>Название тавара</h5></a></div>
-                    <div class="content-center"><a><h6>цена товара</h6></a></div>
-                </div>
-                <div class="grid_card">
-                    <div><a href="#"><img src="https://picsum.photos/700"></a></div>
-                    <div class="content-center"><a href="#"><h5>Название тавара</h5></a></div>
-                    <div class="content-center"><a><h6>цена товара</h6></a></div>
-                </div>
-                <div class="grid_card">
-                    <div><a href="#"><img src="https://picsum.photos/700"></a></div>
-                    <div class="content-center"><a href="#"><h5>Название тавара</h5></a></div>
-                    <div class="content-center"><a><h6>цена товара</h6></a></div>
-                </div>
+                <? endforeach; ?>
             </div>
         <div><h1 class="h_mt">Популярные товары</h1></div>
             <div class="grid_cards_position grid_cards_position_p grid_cards_position_t grid_cards_position_mt">
-                <div class="grid_card">
-                    <div><a href="#"><img src="https://picsum.photos/700"></a></div>
-                    <div class="content-center"><a href="#"><h5>Название тавара</h5></a></div>
-                    <div class="content-center"><a><h6>цена товара</h6></a></div>
-                </div>
-                <div class="grid_card">
-                    <div><a href="#"><img src="https://picsum.photos/700"></a></div>
-                    <div class="content-center"><a href="#"><h5>Название тавара</h5></a></div>
-                    <div class="content-center"><a><h6>цена товара</h6></a></div>
-                </div>
-                <div class="grid_card">
-                    <div><a href="#"><img src="https://picsum.photos/700"></a></div>
-                    <div class="content-center"><a href="#"><h5>Название тавара</h5></a></div>
-                    <div class="content-center"><a><h6>цена товара</h6></a></div>
-                </div>
-                <div class="grid_card">
-                    <div><a href="#"><img src="https://picsum.photos/700"></a></div>
-                    <div class="content-center"><a href="#"><h5>Название тавара</h5></a></div>
-                    <div class="content-center"><a><h6>цена товара</h6></a></div>
-                </div>
-                <div class="grid_card">
-                    <div><a href="#"><img src="https://picsum.photos/700"></a></div>
-                    <div class="content-center"><a href="#"><h5>Название тавара</h5></a></div>
-                    <div class="content-center"><a><h6>цена товара</h6></a></div>
-                </div>
-                <div class="grid_card">
-                    <div><a href="#"><img src="https://picsum.photos/700"></a></div>
-                    <div class="content-center"><a href="#"><h5>Название тавара</h5></a></div>
-                    <div class="content-center"><a><h6>цена товара</h6></a></div>
-                </div>
+                <? foreach ($res_data as $res): ?>
+                    <div class="grid_card">
+                        <div><a href="#"><img src="/static/img/pic/<? echo $res['product_main_photo']; ?>"></a></div>
+                        <div class="content-center"><a href="#"><h5><? echo $res['product_name']; ?></h5></a></div>
+                        <div class="content-center"><a><h6><? echo $res['price']; ?></h6></a></div>
+                    </div>
+                <? endforeach; ?>
             </div>
         <div class="flex-row flex-wrap">
         <div><h1>Лучшая цена</h1></div>
             <div class="grid_cards_position grid_cards_position_p grid_cards_position_t grid_cards_position_mt">
-                <div class="grid_card">
-                    <div><a href="#"><img src="https://picsum.photos/700"></a></div>
-                    <div class="content-center"><a href="#"><h5>Название тавара</h5></a></div>
-                    <div class="content-center"><a><h6>цена товара</h6></a></div>
-                </div>
-                <div class="grid_card">
-                    <div><a href="#"><img src="https://picsum.photos/700"></a></div>
-                    <div class="content-center"><a href="#"><h5>Название тавара</h5></a></div>
-                    <div class="content-center"><a><h6>цена товара</h6></a></div>
-                </div>
-                <div class="grid_card">
-                    <div><a href="#"><img src="https://picsum.photos/700"></a></div>
-                    <div class="content-center"><a href="#"><h5>Название тавара</h5></a></div>
-                    <div class="content-center"><a><h6>цена товара</h6></a></div>
-                </div>
-                <div class="grid_card">
-                    <div><a href="#"><img src="https://picsum.photos/700"></a></div>
-                    <div class="content-center"><a href="#"><h5>Название тавара</h5></a></div>
-                    <div class="content-center"><a><h6>цена товара</h6></a></div>
-                </div>
-                <div class="grid_card">
-                    <div><a href="#"><img src="https://picsum.photos/700"></a></div>
-                    <div class="content-center"><a href="#"><h5>Название тавара</h5></a></div>
-                    <div class="content-center"><a><h6>цена товара</h6></a></div>
-                </div>
-                <div class="grid_card">
-                    <div><a href="#"><img src="https://picsum.photos/700"></a></div>
-                    <div class="content-center"><a href="#"><h5>Название тавара</h5></a></div>
-                    <div class="content-center"><a><h6>цена товара</h6></a></div>
-                </div>
+                <? foreach ($res_data as $res): ?>
+                    <div class="grid_card">
+                        <div><a href="#"><img src="/static/img/pic/<? echo $res['product_main_photo']; ?>"></a></div>
+                        <div class="content-center"><a href="#"><h5><? echo $res['product_name']; ?></h5></a></div>
+                        <div class="content-center"><a><h6><? echo $res['price']; ?></h6></a></div>
+                    </div>
+                <? endforeach; ?>
             </div>
         </div>
         <div class="grid-2x2 grid-2x2_p grid-2x2_t grid-2x2_mt">
@@ -136,7 +68,7 @@
 
             </div>
             <div class="grid-x2y2  flex-wrap">
-                <div><img src="https://picsum.photos/700"></div>
+                <div><img src="/static/img/pubpic/baner.png"></div>
             </div>
             <div class="grid-x2y1 grid-x2y1_p grid-x2y1_mt grid-x2y1_t">
                 <div class="flex-column flex-wrap">

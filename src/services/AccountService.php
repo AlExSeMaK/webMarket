@@ -19,7 +19,7 @@ class AccountService extends Services
     public function addUserService(array $reg_data){
         $login = $reg_data['login'];
         $email = $reg_data['mail'];
-        if ($this->getUser($email)) return self::USER_EXISTS;
+        if ($this->getMail($email)) return self::USER_EXISTS;
         if ($this->getLogin($login)) return self::REGISTRATION_LOGIN_ERROR;
         $pwd = $reg_data['password']; // qwerty123
         $pwd = password_hash($pwd, PASSWORD_DEFAULT);
@@ -34,14 +34,14 @@ class AccountService extends Services
         return self::REGISTRATION_SUCCESS;
     }
 
-    private function getUser($email){
+    private function getMail($email){
         $sql = 'select * from users where mail = :email';
-        $user = $this->dbConnection->execute(
+        $mail = $this->dbConnection->execute(
             $sql,
             ['email' => $email],
             false
         );
-        return $user;
+        return $mail;
     }
 
     private function getLogin($login){

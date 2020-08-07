@@ -21,293 +21,20 @@
                 <a href="#"><p>по размеру скидки</p></a>
                 <a href="#"><p>по новизне</p></a>
             </div>
-            <div class="sel-cards">
-                <div class="flex-column flex-10">
-                    <div class="flex-row">
-                        <div class="flex-2"><a href="#"><img src="https://picsum.photos/700"></a></div>
-                        <div class="flex-column flex-10">
-                            <div class="flex-2"><a href="#"><h4>Название товара</h4></a></div>
-                            <div class="flex-8"><a href="#"><p>Краткое описание товара</p></a></div>
-                            <div class="flex-8"><a href="#"><p>Цена</p></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sel-cards">
-                <div class="flex-column flex-10">
-                    <div class="flex-row">
-                        <div class="flex-2"><a href="#"><img src="https://picsum.photos/700"></a></div>
-                        <div class="flex-column flex-10">
-                            <div class="flex-2"><a href="#"><h4>Название товара</h4></a></div>
-                            <div class="flex-8"><a href="#"><p>Краткое описание товара</p></a></div>
-                            <div class="flex-8"><a href="#"><p>Цена</p></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sel-cards">
-                <div class="flex-column flex-10">
-                    <div class="flex-row">
-                        <div class="flex-2"><a href="#"><img src="https://picsum.photos/700"></a></div>
-                        <div class="flex-column flex-10">
-                            <div class="flex-2"><a href="#"><h4>Название товара</h4></a></div>
-                            <div class="flex-8"><a href="#"><p>Краткое описание товара</p></a></div>
-                            <div class="flex-8"><a href="#"><p>Цена</p></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sel-cards">
-                <div class="flex-column flex-10">
-                    <div class="flex-row">
-                        <div class="flex-2"><a href="#"><img src="https://picsum.photos/700"></a></div>
-                        <div class="flex-column flex-10">
-                            <div class="flex-2"><a href="#"><h4>Название товара</h4></a></div>
-                            <div class="flex-8"><a href="#"><p>Краткое описание товара</p></a></div>
-                            <div class="flex-8"><a href="#"><p>Цена</p></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sel-cards">
-                <div class="flex-column flex-10">
-                    <div class="flex-row">
-                        <div class="flex-2"><a href="#"><img src="https://picsum.photos/700"></a></div>
-                        <div class="flex-column flex-10">
-                            <div class="flex-2"><a href="#"><h4>Название товара</h4></a></div>
-                            <div class="flex-8"><a href="#"><p>Краткое описание товара</p></a></div>
-                            <div class="flex-8"><a href="#"><p>Цена</p></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sel-cards">
-                <div class="flex-column flex-10">
-                    <div class="flex-row">
-                        <div class="flex-2"><a href="#"><img src="https://picsum.photos/700"></a></div>
-                        <div class="flex-column flex-10">
-                            <div class="flex-2"><a href="#"><h4>Название товара</h4></a></div>
-                            <div class="flex-8"><a href="#"><p>Краткое описание товара</p></a></div>
-                            <div class="flex-8"><a href="#"><p>Цена</p></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sel-cards">
-                <div class="flex-column flex-10">
-                    <div class="flex-row">
-                        <div class="flex-2"><a href="#"><img src="https://picsum.photos/700"></a></div>
-                        <div class="flex-column flex-10">
-                            <div class="flex-2"><a href="#"><h4>Название товара</h4></a></div>
-                            <div class="flex-8"><a href="#"><p>Краткое описание товара</p></a></div>
-                            <div class="flex-8"><a href="#"><p>Цена</p></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sel-cards">
-                <div class="flex-column flex-10">
-                    <div class="flex-row">
-                        <div class="flex-2"><a href="#"><img src="https://picsum.photos/700"></a></div>
-                        <div class="flex-column flex-10">
-                            <div class="flex-2"><a href="#"><h4>Название товара</h4></a></div>
-                            <div class="flex-8"><a href="#"><p>Краткое описание товара</p></a></div>
-                            <div class="flex-8"><a href="#"><p>Цена</p></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sel-cards">
-                <div class="flex-column flex-10">
-                    <div class="flex-row">
-                        <div class="flex-2"><a href="#"><img src="https://picsum.photos/700"></a></div>
-                        <div class="flex-column flex-10">
-                            <div class="flex-2"><a href="#"><h4>Название товара</h4></a></div>
-                            <div class="flex-8"><a href="#"><p>Краткое описание товара</p></a></div>
-                            <div class="flex-8"><a href="#"><p>Цена</p></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sel-cards">
-                <div class="flex-column flex-10">
-                    <div class="flex-row">
-                        <div class="flex-2"><a href="#"><img src="https://picsum.photos/700"></a></div>
-                        <div class="flex-column flex-10">
-                            <div class="flex-2"><a href="#"><h4>Название товара</h4></a></div>
-                            <div class="flex-8"><a href="#"><p>Краткое описание товара</p></a></div>
-                            <div class="flex-8"><a href="#"><p>Цена</p></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sel-cards">
-                <div class="flex-column flex-10">
-                    <div class="flex-row">
-                        <div class="flex-2"><a href="#"><img src="https://picsum.photos/700"></a></div>
-                        <div class="flex-column flex-10">
-                            <div class="flex-2"><a href="#"><h4>Название товара</h4></a></div>
-                            <div class="flex-8"><a href="#"><p>Краткое описание товара</p></a></div>
-                            <div class="flex-8"><a href="#"><p>Цена</p></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sel-cards">
-                <div class="flex-column flex-10">
-                    <div class="flex-row">
-                        <div class="flex-2"><a href="#"><img src="https://picsum.photos/700"></a></div>
-                        <div class="flex-column flex-10">
-                            <div class="flex-2"><a href="#"><h4>Название товара</h4></a></div>
-                            <div class="flex-8"><a href="#"><p>Краткое описание товара</p></a></div>
-                            <div class="flex-8"><a href="#"><p>Цена</p></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sel-cards">
-                <div class="flex-column flex-10">
-                    <div class="flex-row">
-                        <div class="flex-2"><a href="#"><img src="https://picsum.photos/700"></a></div>
-                        <div class="flex-column flex-10">
-                            <div class="flex-2"><a href="#"><h4>Название товара</h4></a></div>
-                            <div class="flex-8"><a href="#"><p>Краткое описание товара</p></a></div>
-                            <div class="flex-8"><a href="#"><p>Цена</p></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sel-cards">
-                <div class="flex-column flex-10">
-                    <div class="flex-row">
-                        <div class="flex-2"><a href="#"><img src="https://picsum.photos/700"></a></div>
-                        <div class="flex-column flex-10">
-                            <div class="flex-2"><a href="#"><h4>Название товара</h4></a></div>
-                            <div class="flex-8"><a href="#"><p>Краткое описание товара</p></a></div>
-                            <div class="flex-8"><a href="#"><p>Цена</p></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sel-cards">
-                <div class="flex-column flex-10">
-                    <div class="flex-row">
-                        <div class="flex-2"><a href="#"><img src="https://picsum.photos/700"></a></div>
-                        <div class="flex-column flex-10">
-                            <div class="flex-2"><a href="#"><h4>Название товара</h4></a></div>
-                            <div class="flex-8"><a href="#"><p>Краткое описание товара</p></a></div>
-                            <div class="flex-8"><a href="#"><p>Цена</p></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sel-cards">
-                <div class="flex-column flex-10">
-                    <div class="flex-row">
-                        <div class="flex-2"><a href="#"><img src="https://picsum.photos/700"></a></div>
-                        <div class="flex-column flex-10">
-                            <div class="flex-2"><a href="#"><h4>Название товара</h4></a></div>
-                            <div class="flex-8"><a href="#"><p>Краткое описание товара</p></a></div>
-                            <div class="flex-8"><a href="#"><p>Цена</p></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sel-cards">
-                <div class="flex-column flex-10">
-                    <div class="flex-row">
-                        <div class="flex-2"><a href="#"><img src="https://picsum.photos/700"></a></div>
-                        <div class="flex-column flex-10">
-                            <div class="flex-2"><a href="#"><h4>Название товара</h4></a></div>
-                            <div class="flex-8"><a href="#"><p>Краткое описание товара</p></a></div>
-                            <div class="flex-8"><a href="#"><p>Цена</p></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sel-cards">
-                <div class="flex-column flex-10">
-                    <div class="flex-row">
-                        <div class="flex-2"><a href="#"><img src="https://picsum.photos/700"></a></div>
-                        <div class="flex-column flex-10">
-                            <div class="flex-2"><a href="#"><h4>Название товара</h4></a></div>
-                            <div class="flex-8"><a href="#"><p>Краткое описание товара</p></a></div>
-                            <div class="flex-8"><a href="#"><p>Цена</p></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sel-cards">
-                <div class="flex-column flex-10">
-                    <div class="flex-row">
-                        <div class="flex-2"><a href="#"><img src="https://picsum.photos/700"></a></div>
-                        <div class="flex-column flex-10">
-                            <div class="flex-2"><a href="#"><h4>Название товара</h4></a></div>
-                            <div class="flex-8"><a href="#"><p>Краткое описание товара</p></a></div>
-                            <div class="flex-8"><a href="#"><p>Цена</p></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sel-cards">
-                <div class="flex-column flex-10">
-                    <div class="flex-row">
-                        <div class="flex-2"><a href="#"><img src="https://picsum.photos/700"></a></div>
-                        <div class="flex-column flex-10">
-                            <div class="flex-2"><a href="#"><h4>Название товара</h4></a></div>
-                            <div class="flex-8"><a href="#"><p>Краткое описание товара</p></a></div>
-                            <div class="flex-8"><a href="#"><p>Цена</p></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sel-cards">
-                <div class="flex-column flex-10">
-                    <div class="flex-row">
-                        <div class="flex-2"><a href="#"><img src="https://picsum.photos/700"></a></div>
-                        <div class="flex-column flex-10">
-                            <div class="flex-2"><a href="#"><h4>Название товара</h4></a></div>
-                            <div class="flex-8"><a href="#"><p>Краткое описание товара</p></a></div>
-                            <div class="flex-8"><a href="#"><p>Цена</p></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sel-cards">
-                <div class="flex-column flex-10">
-                    <div class="flex-row">
-                        <div class="flex-2"><a href="#"><img src="https://picsum.photos/700"></a></div>
-                        <div class="flex-column flex-10">
-                            <div class="flex-2"><a href="#"><h4>Название товара</h4></a></div>
-                            <div class="flex-8"><a href="#"><p>Краткое описание товара</p></a></div>
-                            <div class="flex-8"><a href="#"><p>Цена</p></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sel-cards">
-                <div class="flex-column flex-10">
-                    <div class="flex-row">
-                        <div class="flex-2"><a href="#"><img src="https://picsum.photos/700"></a></div>
-                        <div class="flex-column flex-10">
-                            <div class="flex-2"><a href="#"><h4>Название товара</h4></a></div>
-                            <div class="flex-8"><a href="#"><p>Краткое описание товара</p></a></div>
-                            <div class="flex-8"><a href="#"><p>Цена</p></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div><div class="sel-cards">
-            <div class="flex-column flex-10">
-                <div class="flex-row">
-                    <div class="flex-2"><a href="#"><img src="https://picsum.photos/700"></a></div>
+            <? foreach ($res_data as $res): ?>
+                <div class="sel-cards">
                     <div class="flex-column flex-10">
-                        <div class="flex-2"><a href="#"><h4>Название товара</h4></a></div>
-                        <div class="flex-8"><a href="#"><p>Краткое описание товара</p></a></div>
-                        <div class="flex-8"><a href="#"><p>Цена</p></a></div>
+                        <div class="flex-row">
+                            <div class="flex-2"><a href="/computersByName/<? echo $res['name']; ?>"><img src="/static/img/pic/<? echo $res['product_main_photo']; ?>"></a></div>
+                            <div class="flex-column flex-10">
+                                <div class="flex-2"><a href="/computersByName/<? echo $res['name']; ?>"><h4><? echo $res['product_name']; ?></h4></a></div>
+                                <div class="flex-8"><a href="/computersByName/<? echo $res['name']; ?>"><p><? echo $res['product_info']; ?></p></a></div>
+                                <div class="flex-8"><a href="/computersByName/<? echo $res['name']; ?>"><p><? echo $res['price']; ?></p></a></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            <? endforeach; ?>
             <div class="flex-row">
                 <div><a href="#"><p>1</p></a></div>
                 <div><a href="#"><p>2</p></a></div>
@@ -409,61 +136,61 @@
                     <fieldset>
                         <legend>Платформа</legend>
                         <label class="flex-row">
-                            <input type="checkbox" name="platform_pad[]" value="android">
+                            <input type="checkbox" name="Operation_System[]" value="android">
                             Android
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="platform_pad[]" value="ios">
+                            <input type="checkbox" name="Operation_System[]" value="ios">
                             IOS
                         </label>
                     </fieldset>
                     <fieldset>
                         <legend>Размер экрана</legend>
                         <label class="flex-row">
-                            <input checked type="checkbox" name="size_screen_phone[]" value="3.4_size_screen_phone">
+                            <input checked type="checkbox" name="size_screen_phone[]" value="3.4_size_screen">
                             до 3.4"
                         </label>
                         <label class="flex-row">
-                            <input checked type="checkbox" name="size_screen_phone[]" value="3.5-4.9_size_screen_phone">
+                            <input checked type="checkbox" name="size_screen_phone[]" value="3.5-4.9_size_screen">
                             3.5"-4.9"
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="size_screen_phone[]" value="5.0-5.4_size_screen_phone">
+                            <input type="checkbox" name="size_screen_phone[]" value="5.0-5.4_size_screen">
                             5.0"-5.4"
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="size_screen_phone[]" value="5.5-5.9_size_screen_phone">
+                            <input type="checkbox" name="size_screen_phone[]" value="5.5-5.9_size_screen">
                             5.5"-5.9"
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="size_screen_phone[]" value="6.0*6.4_size_screen_phone">
+                            <input type="checkbox" name="size_screen_phone[]" value="6.0*6.4_size_screen">
                             6.0"-6.4"
                         </label>
                         <label class="flex-row">
-                            <input checked type="checkbox" name="size_screen_phone[]" value="6.5_size_screen_phone">
+                            <input checked type="checkbox" name="size_screen_phone[]" value="6.5_size_screen">
                             6.5" и более
                         </label>
                     </fieldset>
                     <fieldset>
                         <legend>Разрешение экрана</legend>
                         <label class="flex-row">
-                            <input type="checkbox" name="resolution_screen_phone[]" value="resolution_screen_phone_320x240">
+                            <input type="checkbox" name="resolution_screen_phone[]" value="resolution_screen_320x240">
                             320x240
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="resolution_screen_phone[]" value="resolution_screen_phone_2340x1080">
+                            <input type="checkbox" name="resolution_screen_phone[]" value="resolution_screen_2340x1080">
                             2340x1080
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="resolution_screen_phone[]" value="resolution_screen_phone_1440x720">
+                            <input type="checkbox" name="resolution_screen_phone[]" value="resolution_screen_1440x720">
                             1440x720
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="resolution_screen_phone[]" value="resolution_screen_phone_1520x720">
+                            <input type="checkbox" name="resolution_screen_phone[]" value="resolution_screen_1520x720">
                             1520x720
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="resolution_screen_phone[]" value="resolution_screen_phone_1792x828">
+                            <input type="checkbox" name="resolution_screen_phone[]" value="resolution_screen_1792x828">
                             1792x828
                         </label>
                     </fieldset>
@@ -493,69 +220,69 @@
                     <fieldset>
                         <legend>Размер встроеной памяти</legend>
                         <label class="flex-row">
-                            <input type="checkbox" name="integer_member_phone[]" value="16g_integer_member_phone">
+                            <input type="checkbox" name="integer_member_phone[]" value="16_Gig">
                             16 ГБ
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="integer_member_pad_phone[]" value="32g_integer_member_phone">
+                            <input type="checkbox" name="integer_member_pad_phone[]" value="32_Gig">
                             32 ГБ
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="integer_member_pad_phone[]" value="8g_integer_member_phone">
+                            <input type="checkbox" name="integer_member_pad_phone[]" value="8_Gig">
                             до 8 ГБ
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="integer_member_phone[]" value="64g_integer_member_phone">
+                            <input type="checkbox" name="integer_member_phone[]" value="64_Gig">
                             64 ГБ
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="integer_member_phone[]" value="128g_integer_member_phone">
+                            <input type="checkbox" name="integer_member_phone[]" value="128_Gig">
                             128 ГБ
                         </label>
                     </fieldset>
                     <fieldset>
                         <legend>Размер оперативной памяти</legend>
                         <label class="flex-row">
-                            <input type="checkbox" name="size_operation_member[]" value="1g_operation_member_phone">
+                            <input type="checkbox" name="size_operation_member[]" value="1g_operation_member">
                             1 ГБ
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="size_operation_member[]" value="2g_operation_member_phone">
+                            <input type="checkbox" name="size_operation_member[]" value="2g_operation_member">
                             2 ГБ
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="size_operation_member[]" value="3g_operation_member_phone">
+                            <input type="checkbox" name="size_operation_member[]" value="3g_operation_member">
                             3 ГБ
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="size_operation_member[]" value="4g_operation_member_phone">
+                            <input type="checkbox" name="size_operation_member[]" value="4g_operation_member">
                             4 ГБ
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="size_operation_member[]" value="8g_operation_member_phone">
+                            <input type="checkbox" name="size_operation_member[]" value="8g_operation_member">
                             8 ГБ
                         </label>
                     </fieldset>
                     <fieldset>
                         <legend>Ёмкость аккумулятора</legend>
                         <label class="flex-row">
-                            <input type="checkbox" name="accumulation_size_phone[]" value="accumulation_size_phone_2000-2499ma*h">
-                            2000-24999 мАч
+                            <input type="checkbox" name="accumulation_size_phone[]" value="2000-2499">
+                            2000-2499 мАч
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="accumulation_size_phone[]" value="accumulation_size_phone_2500-2999ma*h">
+                            <input type="checkbox" name="accumulation_size_phone[]" value="2500-2999">
                             2500-2999 мАч
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="accumulation_size_phone[]" value="accumulation_size_phone_23000-3499ma*h">
+                            <input type="checkbox" name="accumulation_size_phone[]" value="3000-3499">
                             3000-3499 мАч
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="accumulation_size_phone[]" value="accumulation_size_phone_3500-4499ma*h">
+                            <input type="checkbox" name="accumulation_size_phone[]" value="3500-4499">
                             2500-3499 мАч
                         </label>
                         <label class="flex-row">
-                            <input type="checkbox" name="accumulation_size_phone[]" value="accumulation_size_phone_4500ma*h">
+                            <input type="checkbox" name="accumulation_size_phone[]" value="4500">
                             4500 мАч и выше
                         </label>
                     </fieldset>
@@ -625,10 +352,6 @@
                             <input type="radio" name="devilry_way" value="self_devilry">
                             Самовывоз
                         </label>
-                        <label class="flex-row">
-                            <input checked type="radio" name="devilry_way" value="all_devilry">
-                            Любой
-                        </label>
                     </fieldset>
                     <fieldset>
                         <legend>Срок доставки курьером</legend>
@@ -643,10 +366,6 @@
                         <label class="flex-row">
                             <input type="radio" name="devilry_time" value="devilry_time_five_day">
                             До 5 дней
-                        </label>
-                        <label class="flex-row">
-                            <input checked type="radio" name="devilry_time" value="devilry_time_all">
-                            Любой
                         </label>
                     </fieldset>
                     <fieldset>

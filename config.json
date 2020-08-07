@@ -49,6 +49,86 @@
       "path": "/smartphones",
       "controller": "Aleksei\\WebShop\\Controllers\\IndexController::smartphonesAction",
       "method": "GET"
+    },
+    "add product": {
+      "path": "/add/product",
+      "controller": "Aleksei\\WebShop\\Controllers\\ProductController::addProductAction",
+      "method": "POST"
+    },
+    "show admin": {
+      "path": "/admin",
+      "controller": "Aleksei\\WebShop\\Controllers\\AdminController::adminAction",
+      "method": "GET"
+    },
+    "show desctop": {
+      "path": "/desctop",
+      "controller": "Aleksei\\WebShop\\Controllers\\ProductController::desctopAction",
+      "method": "GET"
+    },
+    "show microComputer": {
+      "path": "/microComputer",
+      "controller": "Aleksei\\WebShop\\Controllers\\ProductController::microComputerAction",
+      "method": "GET"
+    },
+    "show gameLaptop": {
+      "path": "/gameLaptop",
+      "controller": "Aleksei\\WebShop\\Controllers\\ProductController::gameLaptopAction",
+      "method": "GET"
+    },
+    "show laptopPad": {
+      "path": "/laptopPad",
+      "controller": "Aleksei\\WebShop\\Controllers\\ProductController::laptopPadAction",
+      "method": "GET"
+    },
+    "show smartPhone": {
+      "path": "/smartPhone",
+      "controller": "Aleksei\\WebShop\\Controllers\\ProductController::smartPhoneAction",
+      "method": "GET"
+    },
+    "show buttonPhone": {
+      "path": "/buttonPhone",
+      "controller": "Aleksei\\WebShop\\Controllers\\ProductController::buttonPhoneAction",
+      "method": "GET"
+    },
+    "show apple": {
+      "path": "/apple",
+      "controller": "Aleksei\\WebShop\\Controllers\\ProductController::appleAction",
+      "method": "GET"
+    },
+    "show android": {
+      "path": "/android",
+      "controller": "Aleksei\\WebShop\\Controllers\\ProductController::androidAction",
+      "method": "GET"
+    },
+    "show computers by name": {
+      "path": "/computersByName/{name}",
+      "controller": "Aleksei\\WebShop\\Controllers\\ProductController::computersByNameAction",
+      "method": "GET"
+    },
+    "show laptops by name": {
+      "path": "/laptopsByName/{name}",
+      "controller": "Aleksei\\WebShop\\Controllers\\ProductController::laptopsByNameAction",
+      "method": "GET"
+    },
+    "show smartphones by name": {
+      "path": "/smartphonesByName/{name}",
+      "controller": "Aleksei\\WebShop\\Controllers\\ProductController::smartphonesByNameAction",
+      "method": "GET"
+    },
+    "show pads by name": {
+      "path": "/padsByName/{name}",
+      "controller": "Aleksei\\WebShop\\Controllers\\ProductController::padsByNameAction",
+      "method": "GET"
+    },
+    "show acsessyars by name": {
+      "path": "/acsessyarsByName/{name}",
+      "controller": "Aleksei\\WebShop\\Controllers\\ProductController::acsessyarsByNameAction",
+      "method": "GET"
+    },
+    "show office_equipment by name": {
+      "path": "/office_equipmentByName/{name}",
+      "controller": "Aleksei\\WebShop\\Controllers\\ProductController::office_equipmentByNameAction",
+      "method": "GET"
     }
   },
   "db": {

@@ -41,6 +41,9 @@
                     <li class="content-center">
                         <div><a href="/acsessyars">Аксесуары</a></div>
                     </li>
+                    <li class="content-center">
+                        <div><a href="/admin">управление</a></div>
+                    </li>
                 </ul>
             </li>
             <li class="bascet_area content-center">

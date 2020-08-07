@@ -400,6 +400,10 @@ input[type="radio"] {
     width: 1px;
 }
 
+.gallery { overflow: hidden; width: 480px;}
+.gallery .ramka { float: left; margin-right: 10px; margin-bottom: 10px;}
+.gallery img { width: 150px; height: 150px; }
+
 @media screen and (max-width: 768px) {
     nav li {
     border: none;
